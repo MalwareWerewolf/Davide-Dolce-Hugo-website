@@ -21,11 +21,11 @@ disqusShortname = "ddolce"
     info = "Software Developer and Geeker always looking for new challenges"
     avatarURL = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
-    footerContent = "Enter a text here."
+    footerContent = ""
 
     dateFormat = "January 2, 2006"
 
-    hideFooter = true
+    hideFooter = false
     hideCredits = false
     hideCopyright = false
     since = 2019
