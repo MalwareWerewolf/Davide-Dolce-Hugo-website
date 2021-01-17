@@ -9,7 +9,7 @@ slug = "projects"
 
 A peer to peer fighting game created with the Ikemen Plus Master engine and the Lua programming language.
 
-View the game on my [Youtube channel](https://www.youtube.com/watch?v=ldaEnFMK7nY)
+View the game on my [Youtube channel](https://www.youtube.com/watch?v=Q_oFZxTJLio)
 
 ## RaptorSA
 
