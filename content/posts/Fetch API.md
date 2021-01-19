@@ -1,7 +1,7 @@
 +++ 
 date = "2019-09-06"
 title = "Fetch API, a good alternative to Ajax and Jquery."
-slug = "fetch-api"
+slug = "Fetch API"
 tags = []
 categories = []
 series = []

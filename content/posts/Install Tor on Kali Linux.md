@@ -1,7 +1,7 @@
 +++ 
 date = "2019-10-21"
 title = "Install Tor on Kali Linux"
-slug = "install-tor-on-kali-linux"
+slug = "Install tor on Kali Linux"
 tags = []
 categories = []
 series = []
