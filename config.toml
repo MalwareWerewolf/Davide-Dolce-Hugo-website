@@ -110,7 +110,7 @@ disqusShortname = "ddolce"
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
-    url = "https://ddolce.com/index.xml"
+    url = "https://ddolce.com/posts/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
