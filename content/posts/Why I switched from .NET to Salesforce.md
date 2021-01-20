@@ -26,7 +26,7 @@ During my first job experience I decided to change job, I am not explaining ever
 
 In my second job experience I worked with [Dynamics CRM](https://dynamics.microsoft.com/en-us/crm/what-is-crm/), I am talking about the 2016 version from the moment I didn't work with the 365 version. I had the possibility to work in a bigger project, but the catch were the old technologies. I never liked the idea to work on old technologies, this does not help you to be competitive and it does not help you to grow in your career.
 
-Speaking of Dynamics 2016 with my old team we used **TFS** as versioning control system and in my opinion is really terrible. Yes it has a good UI in Visual Studio but one of the biggest issues is the impossibility to directly merge every all files between branches, in TFS if you need to do that, you have to merge one single file one by one. I am not surprised that Microsoft dropped the support and started to use Git as the main versioning control system. 
+Speaking of Dynamics 2016 with my old team we used **TFS** as versioning control system and in my opinion is really terrible. Yes it has a good UI in Visual Studio but one of the biggest issues is the impossibility to directly merge all files between branches, in TFS if you need to do that, you have to merge one single file one by one. I am not surprised that Microsoft dropped the support and started to use Git as the main versioning control system. 
 
 In Dynamics I didn't like many things, first of all if you want to update a plugin you need to download a separate tool called XrmToolBox, why not make a function in Visual Studio to directly update the plugin on the platform ? In Azure you could do this for a web application. Besides the tool you can't update more environments at once, you need to do it one by one with the "Solutions", in short they are some kind of zip files that you use to update the plugins, the entities etc. across these environments.
 
@@ -40,6 +40,6 @@ When I read about a **Salesforce** application at **Accenture**, I did not even 
 
 [Trailhead](https://trailhead.salesforce.com/en/home) is a learning platform that helps you to learn the entire Salesforce platform like a game, you study, you earn some points if you answer correctly to the questions, you earn ranks and you face real world challenges, in other words this platform is awesome!
 
-## What's next?
+## What's next ?
 
 So yeah, so far so good, I started my career on the Salesforce platform and there are many things to learn and many certifications to earn. For now is a good carrer starting point and I want to recommend to anyone to learn and get a job related to the Salesforce platform.

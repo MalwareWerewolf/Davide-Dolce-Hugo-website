@@ -9,7 +9,7 @@ I'm working as Salesforce Developer at [Accenture (Milan, Italy)](https://www.ac
 
 I got a Diploma in Computer Science from [Giuseppe Peano (Italy)](http://iispeano.gov.it/) high school and an Associate Degree in Integrated Back-End Services, from [ITS ICT Piemonte (Italy)](http://www.its-ictpiemonte.it/) with a score of 84/100.
 
-I created two videogames, they are based on the fighting game style, **Supreme Word Of Fighters** has reached 2k of downloads. I made a bot called **RaptorSA** which reached more than 30 stars and more than 50 forks on Github, I also got the [Artic Code Vault Contributor](https://archiveprogram.github.com/arctic-vault/) badge on my Github profile, a program to store code for future generations.
+I created two videogames, they are based on the fighting game style, **Supreme Word Of Fighters** and **Warriors of the Astral Plane** have reached thousands of downloads. I made a bot called **RaptorSA** which reached more than 30 stars and more than 50 forks on Github, I also got the [Artic Code Vault Contributor](https://archiveprogram.github.com/arctic-vault/) badge on my Github profile, a program to store code for future generations.
 
 Besides contributing to open source and creating other projects, I like to make some youtube videos on my channel to share my knowledge with the community.
 

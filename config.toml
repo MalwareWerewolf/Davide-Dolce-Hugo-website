@@ -135,3 +135,8 @@ disqusShortname = "ddolce"
             name = "Projects"
             weight = 3
             url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact"
+            weight = 3
+            url = "contact/"
