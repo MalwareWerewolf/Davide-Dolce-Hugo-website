@@ -31,7 +31,7 @@ pygmentsCodeFencesGuessSyntax = true
     since = 2019
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://github.com/luizdepra/hugo-coder/tree/"
+    # commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
     rtl = false
 
