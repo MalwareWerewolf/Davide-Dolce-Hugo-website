@@ -43,7 +43,7 @@ pygmentsCodeFencesGuessSyntax = true
     colorScheme = "light"
 
     # Hide the toggle button, along with the associated vertical divider
-    hideColorSchemeToggle = true
+    hideColorSchemeToggle = false
 
     # Series see also post count
     maxSeeAlsoItems = 5
