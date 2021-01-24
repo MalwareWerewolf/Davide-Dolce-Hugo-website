@@ -12,12 +12,3 @@ I got a Diploma in Computer Science from [Giuseppe Peano (Italy)](http://iispean
 I created two videogames, they are based on the fighting game style, **Supreme Word Of Fighters** and **Warriors of the Astral Plane** have reached thousands of downloads. I made a bot called **RaptorSA** which reached more than 30 stars and more than 50 forks on Github, I also got the [Artic Code Vault Contributor](https://archiveprogram.github.com/arctic-vault/) badge on my Github profile, a program to store code for future generations.
 
 Besides contributing to open source and creating other projects, I like to make some youtube videos on my channel to share my knowledge with the community.
-
-## Social Networks
-
-If you want to contact me, you can find me on the following social networks:
-
-+ [Github](https://github.com/Cramenorn)
-+ [Youtube](https://www.youtube.com/channel/UChBOmFUlCVeQa0P7mq5eDDQ)
-+ [Twitter](https://twitter.com/dvdolce)
-+ [Linkedin](https://www.linkedin.com/in/ddolce)

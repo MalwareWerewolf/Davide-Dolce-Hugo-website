@@ -1,6 +1,6 @@
 +++ 
 date = "2019-09-06"
-title = "Fetch API, a good alternative to Ajax and Jquery."
+title = "Fetch API, a good alternative to Ajax and Jquery"
 slug = "Fetch API"
 tags = []
 categories = []

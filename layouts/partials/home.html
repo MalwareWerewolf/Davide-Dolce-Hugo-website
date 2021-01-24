@@ -10,30 +10,15 @@
     {{ end }}
     <h1>{{ .Site.Params.author }}</h1>
     <h2>{{ .Site.Params.info }}</h2>
-    {{ with .Site.Params.social }}
-    <ul>
-      {{ range sort . "weight" }}
-        {{ if .icon }}
-          <li>
-            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
-              <i class="{{ .icon }}" aria-hidden="true"></i>
-            </a>
-          </li>
-        {{ else }}
-          <li>
-            <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
-          </li>
-        {{ end }}
-      {{ end }}
-    </ul>
-    {{ end }}
   </div>
   <div class="recent-posts">
+    <hr>
     <h2>Recent Posts</h2>
     <ul>
       {{- range first .Site.Params.maxSeeAlsoItems .Site.RegularPages -}}
         {{- .Render "li" -}}
       {{- end -}}
     </ul>
+    <hr>
   </div>
 </section>

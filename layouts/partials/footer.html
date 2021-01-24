@@ -1,7 +1,25 @@
 {{ if not .Site.Params.hideFooter | default false }}
   <footer class="footer">
-    <section class="container">
-      {{ with .Site.Params.footerContent | safeHTML }}
+    <section class="container centered column list">
+      <div class="about">
+        {{ with .Site.Params.social }}
+        <ul>
+          {{ range sort . "weight" }}
+            {{ if .icon }}
+              <li>
+                <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+                  <i class="{{ .icon }}" aria-hidden="true"></i>
+                </a>
+              </li>
+            {{ else }}
+              <li>
+                <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+        {{ end }}
+        {{ with .Site.Params.footerContent | safeHTML }}
         <p>{{ . }}</p>
       {{ end }}
       {{ if not .Site.Params.hideCopyright }}
@@ -22,6 +40,7 @@
         {{ end }}
       {{ end }}
       <a href="{{ .Site.BaseURL }}/privacy-policy">Privacy Policy</a>
+      </div>
     </section>
   </footer>
 {{ end }}
