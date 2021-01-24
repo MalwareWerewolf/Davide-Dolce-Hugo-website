@@ -48,7 +48,7 @@ It depends what you want to do, if you are going to test some commands that coul
 
 ## But I am a gamer and Linux is not fully supported to play Windows games!
 
-Seriously another big lie that someone told you. Speaking of Ubuntu based distros, you have everything that you need to play a game, the graphics drivers ? No problem you can install theme during the installation:
+Seriously another big lie that someone told you. Speaking of Ubuntu based distros, you have everything that you need to play a game, the graphics drivers ? No problem you can install them during the installation:
 
 ![Ubuntu-3rd-Drivers](/images/posts/why-you-should-switch-to-linux/Ubuntu-3rd-Drivers.PNG)
 
