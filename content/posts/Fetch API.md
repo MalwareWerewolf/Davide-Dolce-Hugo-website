@@ -8,8 +8,6 @@ series = []
 authors = ["Davide Dolce"]
 +++
 
-## Introduction
-
 The **Fetch Api** offers you a simple way to make any kind of request you wish to do using Javascript. The Fetch code I am going to show you, works with [Node.js](https://nodejs.org/en/) or a browser console, in other words you do not necessarily need to install [Node.js](https://nodejs.org/en/) and the Fetch package on your computer to get the code work. If you decide to use the browser console you do not need to import the module, in this post I only show how to implement the code with [Node.js](https://nodejs.org/en/).
 
 ## Working with Node.js

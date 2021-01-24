@@ -8,8 +8,6 @@ series = []
 authors = ["Davide Dolce"]
 +++
 
-## Introduction
-
 I am big fan of open source, one of my favourite Linux distros is **Kali Linux**. It is designed for penetration testing, I used it for several years but I still have more things to learn. It helped me to understand more about penetration testing and the different tools used to hack different systems. Many tools require root privilegies and on Kali you are permanently logged in as root, for security reasons you can't use Tor if you have administrator privilegies.
 
 ## It is easy to install Tor, why make a post for this topic ?
