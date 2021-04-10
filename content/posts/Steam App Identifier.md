@@ -1,7 +1,7 @@
 +++ 
 date = "2021-04-10"
-title = "GimmeTheSteamAppIdByName, a tool made with .NET Framework"
-slug = "GimmeTheSteamAppIdByName, a tool made with .NET Framework"
+title = "GimmeTheSteamAppIdByName a tool made with .NET Framework"
+slug = "GimmeTheSteamAppIdByName a tool made with .NET Framework"
 tags = []
 categories = []
 series = []
