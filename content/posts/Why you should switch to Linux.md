@@ -14,9 +14,9 @@ After many years of using Windows, I dediced to switch to Linux for many reasons
 
 ## Linux is better for programming
 
-If you are not specifically programming with the .NET Framework which only works on Windows, all the other programming languages like **C, C++, Java, Python** etc. will work flawlessly on Linux. You type a simple **sudo apt install packagename** and you get everything ready in your terminal, no need to Google the installer and go through the installation process. On Windows some installers like **Python**, gives you the options to set automatically the **environment variables** on your machine, in this way you can call the command **python** from your terminal. In other cases this does not happen, you need to do everything manually step by step.
+If you are not specifically programming with the .NET Framework which only works on Windows, all the other programming languages like **C, C++, Java, Python** etc. will work flawlessly on Linux. You type a simple **sudo apt install packagename** and you get everything ready in your terminal, no need to Google the installer and go through the installation process. On Windows some installers like **Python**, gives you the options to set automatically the **environment variables** on your machine, in this way you can call the command **python** from your CMD. In other cases this does not happen, you need to do everything manually step by step.
 
-Another thing that I really dislike in Windows is the terminal, let's take as an example the Python installer again, if you have the **CMD** and you type **python** after setting the environment variable, this is not recognized, unless you open another terminal or you install a package manager like [Chocolatey](https://github.com/chocolatey/choco) and type **refreshenv** . I found the **Powershell** really useful when you are programming with the .NET stack but in all other cases is not like the terminal.
+Another thing that I really dislike in Windows is the CMD, let's take as an example the Python installer again, if you have the **CMD** opened and you type **python** after setting the environment variable, this is not recognized, unless you open another CMD or you install a package manager like [Chocolatey](https://github.com/chocolatey/choco) and type **refreshenv** . I found a tool like the **Powershell** really useful when you are programming with the .NET stack but in all other cases is not like the Linux terminal.
 
 Speaking of the **C language**, programming on Windows is a nightmare, yes you can use Visual Studio but you need to set up an entire IDE and you can't use some C libraries missing many functionalities.
 
@@ -44,7 +44,7 @@ Wait wait, who told you this lie ? Linux is made for everyone, there are so many
 
 ## It isn't better install Linux with VBox or VMware ?
 
-It depends what you want to do, if you are going to test some commands that could break the OS or you want simply try some features, the answer is yes. If you want to use it for programming, playing videogames or everything else, the answer is no. Keep in mind that in a VM you will lose many resources that your OS could use, in this case I would recommend to install Linux on your computer without missing anything.
+It depends what you want to do, if you are going to test some commands that could break the OS or you simply want try some features, the answer is yes. If you want to use it for programming, playing videogames or everything else, the answer is no. Keep in mind that in a VM you will lose many resources that your OS could use, in this case I would recommend to install Linux on your computer without missing anything.
 
 ## But I am a gamer and Linux is not fully supported to play Windows games!
 
