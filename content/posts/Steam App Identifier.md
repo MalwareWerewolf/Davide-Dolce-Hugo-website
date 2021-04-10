@@ -14,7 +14,7 @@ So the first question might be, why did you make a program like this ? Well ther
 
 # The JSON body contains all the available games on Steam
 
-The following GET Request https://api.steampowered.com/ISteamApps/GetAppList/v2/ contains exactly **113347 records**, it would not be very smart to call every time we press a button this request instead I prefered to call it only one time when I needed to open the program before the InitializeComponent() call in the constructor.
+The following [GET Request](https://api.steampowered.com/ISteamApps/GetAppList/v2/) contains exactly **113347 records**, it would not be very smart to call every time we press a button this request instead I prefered to call it only one time when I needed to open the program before the InitializeComponent() call in the constructor.
 
 # Code overview
 
