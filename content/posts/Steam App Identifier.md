@@ -217,6 +217,7 @@ One last we thing that I would like to try is to search a game by name, then I c
 Copy the ID 570 and append it to the following url https://store.steampowered.com/app/ right after **app/** you should get something like this:
 
 !["Dota 2 Store Page"](/images/posts/gimme-the-steam-app-id-by-name/SteamStorePage.png)
+*Screenshot made from the Steam Store Page*
 
 If we press the **Show All** button the search bar becomes empty and we restore the Grid View:
 

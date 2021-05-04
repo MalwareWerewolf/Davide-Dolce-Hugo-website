@@ -28,7 +28,7 @@
           {{ .Site.Params.since }} -
         {{ end }}
         {{ now.Year }}
-        {{ with .Site.Params.siteName }} {{ . }} {{ end }}
+        {{ with .Site.Params.author }} {{ . }} {{ end }}
       {{ end }}
       {{ if not .Site.Params.hideCredits }}
         {{ if not .Site.Params.hideCopyright }} · {{ end }}
