@@ -1,5 +1,5 @@
-baseURL = "https://ddolce.com/"
-title = "Davide Dolce"
+baseURL = "https://malwarewerewolf.com/"
+title = "Malware Werewolf"
 
 theme = "hugo-coder"
 
@@ -16,6 +16,7 @@ pygmentsCodeFencesGuessSyntax = true
 
 [params]
     author = "Davide Dolce"
+    siteName = "Malware Werewolf"
     description = "Davide Dolce's personal website"
     keywords = "blog,developer,personal"
     info = "Software Developer and Geeker always looking for new challenges"
@@ -110,7 +111,7 @@ pygmentsCodeFencesGuessSyntax = true
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
-    url = "https://ddolce.com/posts/index.xml"
+    url = "https://malwarewerewolf.com//posts/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
