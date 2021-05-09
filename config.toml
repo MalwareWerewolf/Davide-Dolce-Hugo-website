@@ -12,7 +12,7 @@ pygmentsStyle = "b2"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
-#disqusShortname = "ddolce"
+disqusShortname = "https-malwarewerewolf-com"
 
 [params]
     author = "Davide Dolce"
