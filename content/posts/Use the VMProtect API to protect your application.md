@@ -123,7 +123,7 @@ A new file has been created in the directory where the unpacked file was compile
 
 !["messages-pop-up"](/images/posts/use-the-vmprotect-api-to-protect-your-application/messages-pop-up.png)
 
-It appears to be correct but we could check in **IDA Pro** if our code is virtualized, as soon as IDA loads the file we can clearly see from the **graph view** that something is not right. There are a lot of useless instructions repeated continuosly so this is clearly a sign about a possible virtualized code.:
+It appears to be correct but we could check in **IDA Pro** if our code is virtualized, as soon as IDA loads the file we can clearly see from the **graph view** that something is not right. There are a lot of useless instructions repeated continuosly so this is clearly a sign about a possible virtualized code:
 
 !["ida-graph"](/images/posts/use-the-vmprotect-api-to-protect-your-application/ida-graph.png)
 
