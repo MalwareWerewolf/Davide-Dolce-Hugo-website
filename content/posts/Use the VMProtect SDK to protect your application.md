@@ -109,7 +109,7 @@ After you compiled the project, open **VMProtect Demo** and select the output fi
 
 !["output-dir"](/images/posts/use-the-vmprotect-api-to-protect-your-application/output-dir.png)
 
-On the left bar under **Functions for Protection** there is a a folder and an entry named **VMProtectMarker "main"**, if we click on this entry we can see the **code**, the **Compilation Type** and other records:
+On the left bar under **Functions for Protection** there is a folder and an entry named **VMProtectMarker "main"**, if we click on this entry we can see the **code**, the **Compilation Type** and other records:
 
 !["vmprotect-menu"](/images/posts/use-the-vmprotect-api-to-protect-your-application/vmprotect-menu.png)
 
