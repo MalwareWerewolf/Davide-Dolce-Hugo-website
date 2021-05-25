@@ -133,6 +133,11 @@ disqusShortname = "https-malwarewerewolf-com"
             url = "posts/"
 
             [[languages.en.menu.main]]
+            name = "Challenges"
+            weight = 4
+            url = "challenges/"
+
+            [[languages.en.menu.main]]
             name = "Projects"
             weight = 3
             url = "projects/"
