@@ -13,7 +13,7 @@
   </div>
   <div class="recent-posts">
     <hr>
-    <h2>Recent Posts</h2>
+    <h2>Recent blog posts:</h2>
     <ul>
       {{- range first .Site.Params.maxSeeAlsoItems .Site.RegularPages -}}
         {{- .Render "li" -}}
