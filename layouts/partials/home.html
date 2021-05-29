@@ -11,7 +11,7 @@
     <h1>{{ .Site.Params.author }}</h1>
     <h2>{{ .Site.Params.info }}</h2>
   </div>
-  <div class="recent-posts">
+  <div>
     <hr>
     <h2 style="text-align: center;">Recent blog posts:</h2>
     <ul>
@@ -19,6 +19,7 @@
         {{- .Render "li" -}}
       {{- end -}}
     </ul>
+    <h3 style="text-align: center;"><a href="/posts">Other posts &#x2192;</a></h3>
     <hr>
   </div>
 </section>

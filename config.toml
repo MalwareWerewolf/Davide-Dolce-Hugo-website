@@ -47,7 +47,7 @@ disqusShortname = "https-malwarewerewolf-com"
     hideColorSchemeToggle = false
 
     # Series see also post count
-    maxSeeAlsoItems = 4
+    maxSeeAlsoItems = 5
 
     # Enable Twemoji
     enableTwemoji = false
