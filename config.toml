@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 
 paginate = 20
 
-pygmentsStyle = "b2"
+pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
