@@ -20,7 +20,7 @@ enableRobotsTXT = true
     author = "Davide Dolce"
     siteName = "Malware Werewolf"
     description = "Davide Dolce's personal website"
-    keywords = "blog,developer,personal,software developer,geeker,davide dolce,malware werewolf,software engineer"
+    keywords = "blog,developer,personal,software developer,geeker,davide dolce,malware werewolf,software engineer,hacking"
     info = "Software Developer and Geeker always looking for new challenges"
     avatarURL = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
@@ -85,7 +85,7 @@ enableRobotsTXT = true
 
 [taxonomies]
   category = "categories"
-  series = "series"
+#   series = "series"
   tag = "tags"
   author = "authors"
 
