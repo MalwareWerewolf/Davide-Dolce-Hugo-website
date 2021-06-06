@@ -113,12 +113,12 @@ fetch("http://localhost:5000/api/token", {
 As you can see the syntax is very simple, you import the module at the top of your file, then you use the fetch variable to call the function with an url as parameter. You use the keyword then for handling the data you get from the api and the catch keyword to handle exceptionts that the server could return. Here an example to help you remember really well the syntax:
 
 ```javascript
-fetch(url) //call the fetch function and pass an url
+fetch(url) //call the fetch function and pass a url
     .then(function() {
         // handle the data you get from the api
     })
     .catch(function(){
-        // handle any kind of exeption
+        // handle any kind of exception
     })
 ```
 
