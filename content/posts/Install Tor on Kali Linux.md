@@ -25,9 +25,9 @@ As mentioned on the offical [page](https://www.torproject.org/about/overview.htm
 This is the easiest way to install Tor but as I mentioned before, the Tor documentation says clearly to not use this method because you are downloading untrustable and obsolete versions. I will show in the next paragraph the second method:
 
 ```
-sudo add-apt-repository ppa:webupd8team/tor-browser
-sudo apt update
-sudo apt install tor
+$ sudo add-apt-repository ppa:webupd8team/tor-browser
+$ sudo apt update
+$ sudo apt install tor
 ```
 
 ## Second option
@@ -42,15 +42,15 @@ deb-src https://deb.torproject.org/torproject.org stretch main
 In order to avoid file certification problems, you need to import the **GPG keys**, copy and paste those two lines in the terminal:
 
 ```
-curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --import
-gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
+$ curl https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --import
+$ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 ```
 
 Run the following commands to keep your current signing key:
 
 ```
-apt update
-apt install tor deb.torproject.org-keyring
+$ apt update
+$ apt install tor deb.torproject.org-keyring
 ```
 
 ## Create another user
@@ -58,13 +58,13 @@ apt install tor deb.torproject.org-keyring
 From the moment on Kali you are always logged in as root, Tor can't work, you need to use the **adduser** command to add a new user to your system, replace **myNewUsername** with the user that you want to create:
 
 ```
-adduser myNewUsername
+$ adduser myNewUsername
 ```
 
 Set the new password for the user and run the following command to switch:
 
 ```
-su - myNewUsername
+$ su - myNewUsername
 ```
 
 ## Check if the tor service is working
@@ -72,14 +72,14 @@ su - myNewUsername
 Run the following commands to check if Tor has been installed correctly:
 
 ```
-service tor start
-service tor status
+$ sudo service tor start
+$ service tor status
 ```
 
 The status should be set to **Active(running)**, to stop it type:
 
 ```
-service tor stop
+$ sudo service tor stop
 ```
 
 ## Final thoughts
