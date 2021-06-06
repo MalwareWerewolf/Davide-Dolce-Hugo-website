@@ -113,7 +113,7 @@ As you can see the syntax is very simple, you import the module at the top of yo
 ```javascript
 fetch(url) //call the fetch function and pass a url
     .then(function() {
-        // handle the data you get from the api
+        // handle the data from the api
     })
     .catch(function(){
         // handle any kind of exception
