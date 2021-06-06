@@ -17,7 +17,7 @@ The first thing you need to do is install [Node.js](https://nodejs.org/en/), whe
 Here"s an example:
 
 ```
-npm install node-fetch
+$ npm install node-fetch
 ```
 
 ## Get request
@@ -35,7 +35,7 @@ fetch("https://api.github.com/users/Cramenorn")
 Launch the js file from the command line:
 
 ```
-node get.js
+$ node get.js
 ```
 
 Get request json response:
