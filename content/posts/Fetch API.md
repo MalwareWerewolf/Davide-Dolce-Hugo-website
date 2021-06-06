@@ -1,6 +1,6 @@
 +++ 
 date = "2019-09-06"
-title = "Fetch API, a good alternative to Ajax and Jquery"
+title = "Fetch API, a good alternative to Ajax and jQuery"
 slug = "Fetch API"
 tags = []
 categories = []
@@ -8,13 +8,11 @@ series = []
 authors = ["Davide Dolce"]
 +++
 
-The **Fetch Api** offers you a simple way to make any kind of request you wish to do using Javascript. The Fetch code I am going to show you, works with [Node.js](https://nodejs.org/en/) or a browser console, in other words you do not necessarily need to install [Node.js](https://nodejs.org/en/) and the Fetch package on your computer to get the code work. If you decide to use the browser console you do not need to import the module, in this post I only show how to implement the code with [Node.js](https://nodejs.org/en/).
+The **Fetch Api** offers you a simple way to make any kind of request you wish to do using Javascript. The Fetch code I am going to show you, works with [Node.js](https://nodejs.org/en/) or a browser console, in other words you do not necessarily need to install [Node.js](https://nodejs.org/en/) and the Fetch package on your computer to get the code work. If you decide to use the browser console you do not need to import the module, in this post I show how to implement the code with [Node.js](https://nodejs.org/en/).
 
 ## Working with Node.js
 
 The first thing you need to do is install [Node.js](https://nodejs.org/en/), when the installation is complete open the command line and navigate to the path where you want launch your script. If you are using Linux or Mac type **ls** to display the files in the current directory, on Windows type **dir**, use **cd** to change directory, it works on every OS. After that launch the following command:
-
-Here"s an example:
 
 ```
 $ npm install node-fetch
@@ -79,7 +77,7 @@ $ node get.js
 
 ## Token authorization
 
-I am using my own Get request, you do not need to create it because the process is the same for other kind of Get request, obviously it depends what you want to do. Create a file named getToken.js and copy and paste the following code:
+I am using my own Get request, you do not need to create it because the process is the same for other kind of Get request, obviously it depends what you want to do. Create a file named **getToken.js** and copy and paste the following code:
 
 ```javascript
 var fetch = require('node-fetch');
@@ -110,7 +108,7 @@ fetch("http://localhost:5000/api/token", {
 
 ## Syntax explaining
 
-As you can see the syntax is very simple, you import the module at the top of your file, then you use the fetch variable to call the function with an url as parameter. You use the keyword then for handling the data you get from the api and the catch keyword to handle exceptionts that the server could return. Here an example to help you remember really well the syntax:
+As you can see the syntax is very simple, you import the module at the top of your file, then you use the fetch variable to call the function with an url as parameter. You use the keyword then for handling the data you get from the api and the catch keyword to handle exceptionts that the server could return. Here is an example to help you remember really well the syntax:
 
 ```javascript
 fetch(url) //call the fetch function and pass a url
