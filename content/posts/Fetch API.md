@@ -36,10 +36,9 @@ Launch the js file from the command line:
 $ node get.js
 ```
 
-Get request json response:
+You should get the following output in the terminal (or something similar at least):
 
-```
-$ node get.js
+```json
 { 
     login: "Cramenorn",
     id: 43040746,
@@ -90,7 +89,7 @@ fetch("http://localhost:5000/api/token", {
 ```
 ## Post request
 
-I created my own Post request here, you need to change body content, create a file named post.js and copy and paste the following code:
+I created a Post request here, you need to change body content, create a file named **post.js** and copy and paste the following code:
 
 ```javascript
 var fetch = require('node-fetch');
@@ -108,7 +107,7 @@ fetch("http://localhost:5000/api/token", {
 
 ## Syntax explaining
 
-As you can see the syntax is very simple, you import the module at the top of your file, then you use the fetch variable to call the function with an url as parameter. You use the keyword then for handling the data you get from the api and the catch keyword to handle exceptionts that the server could return. Here is an example to help you remember really well the syntax:
+As you can see the syntax is very simple, you import the module at the top of your file, then you use the fetch variable to call the function with a url as parameter. You use the keyword then for handling the data you get from the api and the catch keyword to handle exceptionts that the server could return. Here is an example to help you remember really well the syntax:
 
 ```javascript
 fetch(url) //call the fetch function and pass a url
@@ -122,6 +121,6 @@ fetch(url) //call the fetch function and pass a url
 
 ## Final Thoughts
 
-There are other ways to do these kind of requests, but now you should have a clear idea about how to implement them. Unfortunately not all browsers are supporting Fetch, but it still remains a good alternative not only to Jquery and Ajax but even to XMLHttpRequest.
+There are other ways to do these kind of requests, but now you should have a clear idea about how to implement them. Unfortunately not all browsers are supporting Fetch, but it still remains a good alternative not only to jQuery and Ajax but even to XMLHttpRequest.
 
 Visit the [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) and [Github.io](https://github.github.io/fetch/) for more info.
