@@ -22,7 +22,7 @@ Before the version 6.0.0 to make a VM work, you had different options:
     - [Running Linux and Windows on M1 with QEMU
 ](https://gist.github.com/citruz/9896cd6fb63288ac95f81716756cb9aa)
 
-- Download a **QEMU fork** (for those who don't know what is a fork, it's simply a copy of a repository) with **Alexander Graf's qemu hypervisor patch installed** and launch the VM from the terminal always using QEMU (not the one installed with **homebrew**). For example this is the script that I used with Ubuntu Server and **QEMU's version 5.2.0**:
+- Download a **QEMU fork** (for those who don't know what is a fork, it's simply a copy of a repository) with **Alexander Graf's qemu hypervisor patch installed** and launch the VM from the terminal always using QEMU (not the one installed with **homebrew**). For example this is the script that I used with Ubuntu Server:
 
 ```sh
 ./qemu-system-aarch64 \
