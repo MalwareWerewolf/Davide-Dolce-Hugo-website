@@ -119,7 +119,7 @@ fetch(url) //call the fetch function and pass a url
     })
 ```
 
-## Final Thoughts
+## TLDR
 
 There are other ways to do these kind of requests, but now you should have a clear idea about how to implement them. Unfortunately not all browsers are supporting Fetch, but it still remains a good alternative not only to jQuery and Ajax but even to XMLHttpRequest.
 

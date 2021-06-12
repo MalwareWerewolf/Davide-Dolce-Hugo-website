@@ -32,7 +32,7 @@ $ sudo apt install tor
 
 ## Second option
 
-This is the recommened method to use, visit the [Tor website](https://www.torproject.org/docs/debian.html.en) and choose a Debian version, I am using the stable one, copy the following lines and paste them in this file **"/etc/apt/sources.list"**
+This is the recommended method to use, visit the [Tor website](https://www.torproject.org/docs/debian.html.en) and choose a Debian version, I am using the stable one, copy the following lines and paste them in this file **"/etc/apt/sources.list"**
 
 ```
 deb https://deb.torproject.org/torproject.org stretch main
@@ -82,7 +82,7 @@ The status should be set to **Active(running)**, to stop it type:
 $ sudo service tor stop
 ```
 
-## Final thoughts
+## TLDR
 
 Tor will help you to stay anonymously online along with **DuckDuckGo**, but there are some rules to respect in order to prevent IP leak, but that's another story. 
 

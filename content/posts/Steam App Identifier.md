@@ -223,6 +223,6 @@ If we press the **Show All** button the search bar becomes empty and we restore 
 
 !["Restore"](/images/posts/gimme-the-steam-app-id-by-name/Restore.png)
 
-# Conclusion
+# TLDR
 
 I made this post not only to show my tool, but also to show I approached some problems and how to use some of the Steam APIs which are always useful to learn. You should now have a good overview about the Steam APIs and how to create a Windows Forms application for this kind of purposes.

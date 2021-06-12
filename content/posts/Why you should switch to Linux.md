@@ -58,6 +58,6 @@ You have many ways to play Windows games on Linux, there is [Protondb](https://w
 
 You can use [Wine](https://www.winehq.org/) which is a compatibility layer capable of running Windows applications. Of course you should check on the official [AppDB](https://appdb.winehq.org/) to see which programs are compatible, this is also a good reason to keep Windows 10, not everything is going to work.
 
-## Final thoughts
+## TLDR
 
 As you can see Linux opens new opportunities to every user, I learnt so many things in a couple of days but there is still more to learn. Don't be afraid to install Linux and follow different guides to see which one is the best, I would recommend to follow [this guide](https://askubuntu.com/questions/726972/dual-boot-windows-10-and-linux-ubuntu-on-separate-hard-drives?answertab=votes#tab-top) on **AskUbuntu** which is well explained.

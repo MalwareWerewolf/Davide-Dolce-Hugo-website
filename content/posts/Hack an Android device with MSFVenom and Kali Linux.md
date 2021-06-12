@@ -203,6 +203,6 @@ margin: 0 auto;
 </div>
 {{< /rawhtml >}}
 
-# Conclusions
+# TLDR
 
 With this post you should be able to create a payload for Android, setup a server and a listener to make everything work perfectly. As you can see in the demo, the antivirus is preventing us from installing the APK, in some cases it can also close the connection to our Kali machine. There are other cases where the connection will be closed, unfortunately there isn't a single solution so you will need to try different approaches. Try to check if the architecture used to create the APK is the same used by Android and of course if the antivirus is preventing the payload to work correctly.

@@ -127,6 +127,6 @@ It appears to be correct but we could check in **IDA Pro** if our code is virtua
 
 !["ida-graph"](/images/posts/use-the-vmprotect-api-to-protect-your-application/ida-graph.png)
 
-# Conclusions
+# TLDR
 
 From now you should have a clear view about how to use the VMProtect SDK in your project and how this stuff is working. On another OS the process is literally the same, remember to buy an edition if you are going distribute your application from the moment it removes some limitations like the antivirus detection.
