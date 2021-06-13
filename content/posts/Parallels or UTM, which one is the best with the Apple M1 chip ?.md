@@ -4,7 +4,7 @@ title = "QEMU, Parallels or UTM, which one is the best with Apple M1 chip ?"
 slug = "QEMU, Parallels or UTM, which one is the best with Apple M1 chip ?"
 +++
 
-I always used PCs with Windows already pre-installed but I never tried a Macbook before. I was also curious about the new Apple M1 chip and from the moment it was released recently, I thought it was a good time to discover new features to help the community to use efficiently these Macbooks with the new chip.
+I always used PCs with Windows already pre-installed but I never tried a Macbook before. I was also curious about the new Apple M1 chip and from the moment it was released recently, I thought it was a good time to discover new features to help the community to use efficiently these Macbooks with the new chip. We are going to analyze each tool in order to declare a winner.
 
 # QEMU
 
