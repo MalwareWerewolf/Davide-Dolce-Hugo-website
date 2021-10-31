@@ -10,7 +10,7 @@ authors = ["Davide Dolce"]
 
 !["UI Overview"](/images/posts/gimme-the-steam-app-id-by-name/UI-Overview.png)
 
-So the first question might be, why did you make a program like this ? Well there are different reasons that you could have to get the **Steam APP ID**, many websites use this ID to print data about a game. Even on the **Steam** website you can use the ID to search for a game in the store, another reason about why I made this tool is because it was a little bit challenging to implement on a Windows Forms application. You can find the source code on [Github](https://github.com/Cramenorn/GimmeSteamAppIdByName).
+So the first question might be, why did you make a program like this ? Well there are different reasons that you could have to get the **Steam APP ID**, many websites use this ID to print data about a game. Even on the **Steam** website you can use the ID to search for a game in the store, another reason about why I made this tool is because it was a little bit challenging to implement on a Windows Forms application. You can find the source code on [Github](https://github.com/MalwareWerewolf/GimmeSteamAppIdByName).
 
 # The JSON body contains all the available games on Steam
 

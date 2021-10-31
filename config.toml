@@ -93,7 +93,7 @@ enableRobotsTXT = true
     name = "Github"
     icon = "fa fa-github"
     weight = 1
-    url = "https://github.com/Cramenorn"
+    url = "https://github.com/MalwareWerewolf"
 [[params.social]]
     name = "Twitter"
     icon = "fa fa-twitter"
