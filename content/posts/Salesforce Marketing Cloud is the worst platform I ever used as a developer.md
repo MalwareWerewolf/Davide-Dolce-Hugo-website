@@ -52,7 +52,7 @@ For example in a language like C#, I can type something like this in an editor:
 int x = 5;
 int y = 6;
 
-ret x * y;
+return x * y;
 ```
 
 As you can see everything gets highlighted, so it's much more clear to distinguish what you wrote in your code and it doesn't become a mess. Now compare the C# code to this:
