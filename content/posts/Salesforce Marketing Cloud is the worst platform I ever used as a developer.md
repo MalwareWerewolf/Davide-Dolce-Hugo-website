@@ -13,7 +13,7 @@ Of course this is my opinion and my experience with the platform so you might no
 I know that this language is not something like **Python** or **C#** but at least I would like to have a good editor to develop as quickly as possible, instead we get a terrible interface like this:
 
 !["AMPScript Interface"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/ampscript-interface.png)
-_Credits to [Datarati - Implementation Guru](https://www.youtube.com/watch?v=HsrGTSiXMNw)_ 
+_Image from [Datarati - Implementation Guru](https://www.youtube.com/watch?v=HsrGTSiXMNw)_ 
 
 And it gets even worse when you have a lot of code to manage because you can't indent code properly, I don't understand why Salesforce just decided to put an option like "**Format HTML**" (you have to right click on the editor to get the option) which simply formats the HTML code while the AMPScript code remains the same with no indentation.  
 
@@ -59,12 +59,12 @@ As you can see everything gets highlighted, so it's much more clear to distingui
 
 !["AMPScript Not Highlighted"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/ampscript-not-highlighted.png)
 
-_Credits to [SFMC Trailblazers](https://www.youtube.com/watch?v=x3-gVLVINXA)_
+_Image from [SFMC Trailblazers](https://www.youtube.com/watch?v=x3-gVLVINXA)_
 
 I didn't work with the Salesforce CRM that much but at least the keywords are highlighted in the developer console and the code is indented properly (basically in AMPScript everything is on the same column):
 
 !["Developer Console"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/sfdc-developer-console.png)
-_Credits to [Suresh Dazari](https://www.youtube.com/watch?v=B8jbq4-8RPs)_ 
+_Image from [Suresh Dazari](https://www.youtube.com/watch?v=B8jbq4-8RPs)_ 
 
 But wait we can develop AMPScript code on VSCode! Well that's not quite correct, sure you can develope your code in VSCode with [this plugin](https://marketplace.visualstudio.com/items?itemName=sergey-agadzhanov.AMPscript) (which is not developed and mantained by Salesforce), but if you want to edit your code on the platform, you have to do each time copy and paste. You could also connect the plugin directly with your platform and you get all the emails and mobile messages in VSCode, but as soon as you change something and you hit mistakenly `CTRL + S` to save the file, it gets automatically uploaded on the platform. Another issue is that you can't test your code locally so you have to copy and paste the AMPScript code on the platform in any case. This entire useless process can lead to mistakes most of the time.
 
@@ -83,7 +83,7 @@ Finding a new job as a Salesforce Marketing Cloud Developer is a challenge, thes
 !["You will struggle to get a new job"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/linkedin-job-search-worldwide.png)
 {{< rawhtml >}}
 <br>
-<i>Credits to Linkedin</i>
+<i>Image from Linkedin</i>
 {{< /rawhtml >}}
 
 Almost 4k jobs, not bad you might think, let's search in the European Union:
@@ -91,7 +91,7 @@ Almost 4k jobs, not bad you might think, let's search in the European Union:
 !["You will struggle to get a new job European Union"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/linkedin-job-search-european-union.png)
 {{< rawhtml >}}
 <br>
-<i>Credits to Linkedin</i>
+<i>Image from Linkedin</i>
 {{< /rawhtml >}}
 
 Only 544 results and most of these jobs aren't even related to Marketing Cloud. Now compare these results, to a .NET Developer role:
@@ -101,10 +101,10 @@ Only 544 results and most of these jobs aren't even related to Marketing Cloud. 
 !["Dotnet Developer Worldwide"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/dotnet-developer-worldwide.png)
 {{< rawhtml >}}
 <br>
-<i>Credits to Linkedin</i>
+<i>Image from Linkedin</i>
 {{< /rawhtml >}}
 
-It doesn't have to be a problem, but I think that if you need to change job and you are good at coding, you can find job wherever you want with a good portfolio. So the fact that there is more competition in a .NET Developer role is a challenge to show that you can distinguish from the big crowd.
+It doesn't have to be a problem, but I think that if you need to change job and you are good at coding, you can find a job wherever you want with a good portfolio. So the fact that there is more competition in a .NET Developer role is a challenge to show that you can distinguish from the big crowd.
 
 ## TLDR
 
