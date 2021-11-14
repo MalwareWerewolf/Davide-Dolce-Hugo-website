@@ -78,7 +78,7 @@ If you get an error and you have to fix it, forget about Internet and Google bec
 
 ## You will struggle to get a new job
 
-Finding a new job as a Salesforce Marketing Cloud Developer is a challenge, these are the numbers on Linkedin worldwide:
+Finding a new job as a Salesforce Marketing Cloud Developer is a challenge, these are the numbers of available jobs on Linkedin worldwide:
 
 !["You will struggle to get a new job"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/linkedin-job-search-worldwide.png)
 {{< rawhtml >}}
