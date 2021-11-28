@@ -1,7 +1,7 @@
 +++ 
 date = "2021-11-14"
-title = "Salesforce Marketing Cloud is the worst platform I ever used as a developer"
-slug = "Salesforce Marketing Cloud is the worst platform I ever used as a developer"
+title = "The downsides of Salesforce Marketing Cloud"
+slug = "The downsides of Salesforce Marketing Cloud"
 +++
 
 So this is going to be some kind of review of the platform on a developer side prospective. I will not talk about administration, SSO and other stuff more related on the configuration of the platform.
@@ -12,7 +12,7 @@ Of course this is my opinion and my experience with the platform so you might no
 
 I know that this language is not something like **Python** or **C#** but at least I would like to have a good editor to develop as quickly as possible, instead we get a terrible interface like this:
 
-!["AMPScript Interface"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/ampscript-interface.png)
+!["AMPScript Interface"](/images/posts/the-downsides-of-salesforce-marketing-cloud/ampscript-interface.png)
 _Image from [Datarati - Implementation Guru](https://www.youtube.com/watch?v=HsrGTSiXMNw)_ 
 
 And it gets even worse when you have a lot of code to manage because you can't indent code properly, I don't understand why Salesforce just decided to put an option like "**Format HTML**" (you have to right click on the editor to get the option) which simply formats the HTML code while the AMPScript code remains the same with no indentation.  
@@ -57,13 +57,13 @@ return x * y;
 
 As you can see everything gets highlighted, so it's much more clear to distinguish what you wrote in your code and it doesn't become a mess. Now compare the C# code to this:
 
-!["AMPScript Not Highlighted"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/ampscript-not-highlighted.png)
+!["AMPScript Not Highlighted"](/images/posts/the-downsides-of-salesforce-marketing-cloud/ampscript-not-highlighted.png)
 
 _Image from [SFMC Trailblazers](https://www.youtube.com/watch?v=x3-gVLVINXA)_
 
 I didn't work with the Salesforce CRM that much but at least the keywords are highlighted in the developer console and the code is indented properly (basically in AMPScript everything is on the same column):
 
-!["Developer Console"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/sfdc-developer-console.png)
+!["Developer Console"](/images/posts/the-downsides-of-salesforce-marketing-cloud/sfdc-developer-console.png)
 _Image from [Suresh Dazari](https://www.youtube.com/watch?v=B8jbq4-8RPs)_ 
 
 But wait we can develop AMPScript code on VSCode! Well that's not quite correct, sure you can develop your code in VSCode with [this plugin](https://marketplace.visualstudio.com/items?itemName=sergey-agadzhanov.AMPscript) (which is not developed and mantained by Salesforce), but if you want to edit your code on the platform, you have to do each time copy and paste. You could also connect the plugin directly with your platform and you get all the emails and mobile messages in VSCode, but as soon as you change something and you hit mistakenly `CTRL + S` to save the file, it gets automatically uploaded on the platform. Another issue is that you can't test your code locally so you have to copy and paste the AMPScript code on the platform in any case. This entire useless process can lead to mistakes most of the time.
@@ -80,7 +80,7 @@ If you get an error and you have to fix it, forget about Internet and Google bec
 
 Finding a new job as a Salesforce Marketing Cloud Developer is a challenge, these are the numbers of available jobs on Linkedin worldwide:
 
-!["You will struggle to get a new job"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/linkedin-job-search-worldwide.png)
+!["You will struggle to get a new job"](/images/posts/the-downsides-of-salesforce-marketing-cloud/linkedin-job-search-worldwide.png)
 {{< rawhtml >}}
 <br>
 <i>Image from Linkedin</i>
@@ -88,7 +88,7 @@ Finding a new job as a Salesforce Marketing Cloud Developer is a challenge, thes
 
 Almost 4k jobs, not bad you might think, let's search in the European Union:
 
-!["You will struggle to get a new job European Union"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/linkedin-job-search-european-union.png)
+!["You will struggle to get a new job European Union"](/images/posts/the-downsides-of-salesforce-marketing-cloud/linkedin-job-search-european-union.png)
 {{< rawhtml >}}
 <br>
 <i>Image from Linkedin</i>
@@ -96,9 +96,9 @@ Almost 4k jobs, not bad you might think, let's search in the European Union:
 
 Only 544 results and most of these jobs aren't even related to Marketing Cloud. Now compare these results, to a .NET Developer role:
 
-!["Dotnet Developer European Union"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/dotnet-developer-european-union.png)
+!["Dotnet Developer European Union"](/images/posts/the-downsides-of-salesforce-marketing-cloud/dotnet-developer-european-union.png)
 
-!["Dotnet Developer Worldwide"](/images/posts/salesforce-marketing-cloud-the-worst-platform-i-ever-used/dotnet-developer-worldwide.png)
+!["Dotnet Developer Worldwide"](/images/posts/the-downsides-of-salesforce-marketing-cloud/dotnet-developer-worldwide.png)
 {{< rawhtml >}}
 <br>
 <i>Image from Linkedin</i>
