@@ -3,7 +3,7 @@ title = "About Me"
 slug = "about"
 +++
 
-Hi there, I am **Davide Dolce**, I am specialized mostly in BackEnd technologies. I've experience with .NET Framework, .NET Core, Microsoft Azure, C#, Microsoft Dynamics, Salesforce, Windows and GNU/Linux. I  also developed in Typescript, Node.js, C/C++, Python, Ruby, Lua, Laravel, PHP, Java, JSP and Vue.js.
+Hi there, I am **Davide Dolce**, I am specialized mostly in BackEnd technologies. I have experience with .NET Framework, .NET Core, Microsoft Azure, C#, Microsoft Dynamics, Salesforce, Windows and GNU/Linux. I  also developed in Typescript, Node.js, C/C++, Python, Ruby, Lua, Laravel, PHP, Java, JSP and Vue.js.
 
 I got a Diploma in Computer Science from [Giuseppe Peano (Italy)](https://www.iispeano.edu.it/) high school and an Associate Degree in Integrated Back-End Services, from [ITS ICT Piemonte (Italy)](http://www.its-ictpiemonte.it/) with a score of 84/100.
 
