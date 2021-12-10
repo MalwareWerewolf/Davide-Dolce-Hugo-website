@@ -67,7 +67,7 @@ enableRobotsTXT = true
 [params.fathomAnalytics]
     #siteID = "ABCDE"
     # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-    #serverURL = "analytics.example.com"
+    # serverURL = "analytics.example.com"
 
 # If you want to use plausible(https://plausible.io) for analytics, add this section
 [params.plausibleAnalytics]
