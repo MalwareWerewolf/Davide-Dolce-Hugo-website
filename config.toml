@@ -103,7 +103,7 @@ enableRobotsTXT = true
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 4
-    url = "www.linkedin.com/in/davidedolce"
+    url = "https://www.linkedin.com/in/davidedolce"
 [[params.social]]
     name = "Youtube"
     icon = "fa fa-youtube"
