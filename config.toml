@@ -98,12 +98,12 @@ enableRobotsTXT = true
     name = "Twitter"
     icon = "fa fa-twitter"
     weight = 3
-    url = "https://twitter.com/dvdolce"
+    url = "https://twitter.com/MalwareWerewolf"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/ddolce"
+    url = "www.linkedin.com/in/davidedolce"
 [[params.social]]
     name = "Youtube"
     icon = "fa fa-youtube"
