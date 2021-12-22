@@ -94,6 +94,18 @@ If it includes the bin files, run this command (all files need to be in the same
 $ innoextract mysetup.exe --gog
 ```
 
+The files are extracted but how do we check which architecture the exe is using ? Run this command by passing the exe of the game:
+
+```shell
+$ file example.exe
+```
+
+Which prints:
+
+```shell
+example.exe: PE32 executable (GUI) Intel 80386, for MS Windows
+```
+
 After the files are extracted, you just need to choose the correct exe to run in Wineskin and you are ready to play (if there are not other issues to solve first).
 
 ## TLDR
