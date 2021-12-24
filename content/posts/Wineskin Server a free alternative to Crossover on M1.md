@@ -34,7 +34,7 @@ When you open Wineskin you get an interface like this:
 
 !["Wineskin First Setup"](/images/posts/wineskin_server_a_free_alternative_to_crossover_on_m1/wineskin_first_setup.png)
 
-Before creating a Wrapper you need to install an engine, you can download the engine WineCX19 or greater. If you don't see the engine from Wineskin, you can download it from [here](https://github.com/Gcenx/WineskinServer/releases). After that you just need to copy and paste the file in the path `~/Library/Application Support/Wineskin/Engines`. Create a Wrapper and navigate to this path `~/Applications/Wineskin` you should see the Wrapper that you just created:
+Before creating a Wrapper you need to install an engine, you can download the engine WineCX20 or greater. If you don't see the engine from Wineskin, you can download it from [here](https://github.com/Gcenx/WineskinServer/releases). After that you just need to copy and paste the file in the path `~/Library/Application Support/Wineskin/Engines`. Create a Wrapper and navigate to this path `~/Applications/Wineskin` you should see the Wrapper that you just created:
 
 !["Wineskin Wrappers List"](/images/posts/wineskin_server_a_free_alternative_to_crossover_on_m1/wineskin_wrappers_list.png)
 
