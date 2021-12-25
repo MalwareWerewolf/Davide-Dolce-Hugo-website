@@ -1,7 +1,7 @@
 +++ 
 date = "2021-12-24"
-title = "Legendary, a replacement for the Epic Games Launcher on macOS.md"
-slug = "Legendary, a replacement for the Epic Games Launcher on macOS.md"
+title = "Legendary, a replacement for the Epic Games Launcher on macOS"
+slug = "Legendary, a replacement for the Epic Games Launcher on macOS"
 tags = []
 categories = []
 series = []
