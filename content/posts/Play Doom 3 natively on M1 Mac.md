@@ -38,7 +38,7 @@ You can download a Windows build by launching the script that you just downloade
 
 Of course you have to replace `<YOUR_STEAM_LOGIN_NAME>` with your username, `./doom3/` with another folder name if you don't like it and **9050** with the correct app Id. Wait, how do I find the app Id ? In this case you don't need to change it, but just in case you want to repeat this step with other games, open in a browser the Steam store page of the game that you want to download and look at the URL, you should see a number and that's the app Id, e.g.:
 
-`https://store.steampowered.com/app/9050/DOOM_3/`
+!["Doom App Id"](/images/posts/play_doom_3_natively_on_apple_m1/doom_appid.png)
 
 9050 is the app Id. 
 
