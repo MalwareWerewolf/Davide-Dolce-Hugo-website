@@ -62,11 +62,11 @@ No matter what you might think, if you want to use Parallels, buy a licence (or 
 
 ## TLDR
 
-UTM could be a good alternative, but unfortunately it's not fully usable. You could use it to run simple applications, but don't expect to play games or to do other complex stuff, for that purpose there is Parallels which works much better. 
+**UTM** could be a good alternative, but unfortunately it's not fully usable. You could use it to run simple applications, but don't expect to play games or to do other complex stuff, for that purpose there is Parallels which works much better. 
 
-Virtualbox is probably never going to get a release to support the M1 chip, from the moment it's a general-purpose full virtualizer for x86 hardware, which the M1 or M1X are not part of this.
+**Virtualbox** is probably never going to get a release to support the M1 chip, from the moment it's a general-purpose full virtualizer for x86 hardware, which the M1 or M1X are not part of this.
 
-VMWare Fusion is currently in a technical preview like Parallels was a few months ago, it's too early to say if it'll be a good alternative or not.
+**VMWare Fusion** is currently in a technical preview like Parallels was a few months ago, it's too early to say if it'll be a good alternative or not.
 
 This post was simply made to give an overview to everyone who is going to virtualize an OS on an **Apple M1 chip**, if I would declare a winner, I would choose **Parallels**, why you may ask ? The answer should be obvious but it's because of its simplicity and the fact that many features are perfectly working, you can also play 3D games!
 
