@@ -48,7 +48,7 @@ But wait where can I find a fork with this patch already installed ? [ACVM](http
 
 # UTM
 
-The process to create a VM is more simple, for example to create a Windows VM you can take a look on the [official website](https://mac.getutm.app/gallery/windows-10-arm). There is also a [gallery page](https://mac.getutm.app/gallery/) where you can get a good explanation about how to install different OS if you are not interested in Windows 10. 
+The process to create a VM is more simple, for example to create a Windows VM you can take a look on the [official website](https://mac.getutm.app/gallery/windows-10). There is also a [gallery page](https://mac.getutm.app/gallery/) where you can get a good explanation about how to install different OS if you are not interested in Windows 10. 
 
 Unfortunately there is a catch, at least for Windows 10, I didn't test other OS. For some reason the Edge Browser continuously open again and again, besides that the cursor flickers constantly and it's very annoying. Is there a way to fix this ? I didn't found a solution but if you have found it, you can share it in the comment section below (or if I found a solution I will update this post). As you might imagined Windows 10 does not work very well with UTM but these issues are also present in QEMU (I mean QEMU standalone, of course UTM is built around QEMU).
 
