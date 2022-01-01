@@ -3,7 +3,15 @@ title = "About Me"
 slug = "about"
 +++
 
-Hi there, I am **Davide Dolce**, I am specialized mostly in BackEnd technologies. I have experience with .NET Framework, .NET Core, Microsoft Azure, C#, Microsoft Dynamics, Salesforce, Windows and GNU/Linux. I  also developed in Node.js, C/C++, Python, Lua, PHP, Java and Vue.js.
+Hi there, I'm a **software engineer** who has been working in the **IT** mostly with **Microsoft BackEnd technologies** since 2019. To be more specific, I have experience with the following technologies:
+
+- **Microsoft Stack**: C#, Visual Studio, .NET Framework/Core, ASP.NET Framework/Core, Entity Framework Core, Microsoft Dynamics CRM, Windows Forms, WPF
+- **Cloud**: Microsoft Azure and AWS
+- **Frontend**: Javascript, HTML, CSS, React, Vue.js, Bootstrap, jQuery, Hugo (which I used to develop this website)
+- **Operative Systems**: Windows, GNU/Linux, macOS
+- **Backend**: C/C++, Java
+- **Containers**: Docker, Kubernetes
+- **Agile Frameworks**: Scrum
 
 In my spare time, I constantly study topics related to computer science by also doing some challenges. Some of these challenges consisted in creating two simple two videogames, they are based on the fighting game style, [Supreme Word Of Fighters](https://www.youtube.com/watch?v=ldaEnFMK7nY) and [Warriors of the Astral Plane](https://www.youtube.com/watch?v=Q_oFZxTJLio) have reached thousands of downloads. 
 
