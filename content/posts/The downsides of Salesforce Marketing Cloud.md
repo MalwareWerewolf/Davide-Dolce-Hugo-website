@@ -61,7 +61,7 @@ As you can see everything gets highlighted, so it's much more clear to distingui
 
 _Image from [SFMC Trailblazers](https://www.youtube.com/watch?v=x3-gVLVINXA)_
 
-I didn't work with the Salesforce CRM that much but at least the keywords are highlighted in the developer console and the code is indented properly (basically in AMPScript everything is on the same column):
+I also worked with the Salesforce CRM that much but at least the keywords are highlighted in the developer console and the code is indented properly (basically in AMPScript everything is on the same column):
 
 !["Developer Console"](/images/posts/the-downsides-of-salesforce-marketing-cloud/sfdc-developer-console.png)
 _Image from [Suresh Dazari](https://www.youtube.com/watch?v=B8jbq4-8RPs)_ 
