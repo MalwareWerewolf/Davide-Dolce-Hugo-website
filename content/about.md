@@ -3,7 +3,7 @@ title = "About Me"
 slug = "about"
 +++
 
-Hi there, I'm a **software engineer** who has been working in the **IT** mostly with **Microsoft BackEnd technologies** since 2019. To be more specific, I have experience with the following technologies:
+Hi there, I'm a **software engineer** who has been working in the **IT** mostly with the **Microsoft stack** since 2019. To be more specific, I have experience with the following technologies:
 
 - **Microsoft Stack**: C#, Visual Studio, .NET Framework/Core, ASP.NET Framework/Core, Entity Framework Core, Microsoft Dynamics CRM, Windows Forms, WPF
 - **Cloud**: Microsoft Azure and AWS
