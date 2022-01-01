@@ -24,7 +24,7 @@ Create a file named **get.js**, copy and paste the following code:
 
 ```javascript
 var fetch = require("node-fetch");
-fetch("https://api.github.com/users/Cramenorn")
+fetch("https://api.github.com/users/MalwareWerewolf")
     .then(response => response.json())
     .then(data => {
         console.log(data)
@@ -40,31 +40,31 @@ You should get the following output in the terminal (or something similar at lea
 
 ```json
 { 
-    login: "Cramenorn",
+    login: "MalwareWerewolf",
     id: 43040746,
     node_id: "MDQ6VXNlcjQzMDQwNzQ2",
     avatar_url: "https://avatars2.githubusercontent.com/u/43040746?v=4",
     gravatar_id: "",
-    url: "https://api.github.com/users/Cramenorn",
-    html_url: "https://github.com/Cramenorn",
-    followers_url: "https://api.github.com/users/Cramenorn/followers",
-    following_url: "https://api.github.com/users/Cramenorn/following{/other_user}",
-    gists_url: "https://api.github.com/users/Cramenorn/gists{/gist_id}",
-    starred_url: "https://api.github.com/users/Cramenorn/starred{/owner}{/repo}",
-    subscriptions_url: "https://api.github.com/users/Cramenorn/subscriptions",
-    organizations_url: "https://api.github.com/users/Cramenorn/orgs",
-    repos_url: "https://api.github.com/users/Cramenorn/repos",
-    events_url: "https://api.github.com/users/Cramenorn/events{/privacy}",
-    received_events_url: "https://api.github.com/users/Cramenorn/received_events",
+    url: "https://api.github.com/users/MalwareWerewolf",
+    html_url: "https://github.com/MalwareWerewolf",
+    followers_url: "https://api.github.com/users/MalwareWerewolf/followers",
+    following_url: "https://api.github.com/users/MalwareWerewolf/following{/other_user}",
+    gists_url: "https://api.github.com/users/MalwareWerewolf/gists{/gist_id}",
+    starred_url: "https://api.github.com/users/MalwareWerewolf/starred{/owner}{/repo}",
+    subscriptions_url: "https://api.github.com/users/MalwareWerewolf/subscriptions",
+    organizations_url: "https://api.github.com/users/MalwareWerewolf/orgs",
+    repos_url: "https://api.github.com/users/MalwareWerewolf/repos",
+    events_url: "https://api.github.com/users/MalwareWerewolf/events{/privacy}",
+    received_events_url: "https://api.github.com/users/MalwareWerewolf/received_events",
     type: "User",
     site_admin: false,
-    name: "Davide Dolce",
-    company: "Welol Next",
+    name: "",
+    company: "",
     blog: "https://www.linkedin.com/in/davidedolce/",
     location: "Torino Italia",
     email: null,
     hireable: null,
-    bio: "Internship as software developer at Welol Next since february 2019. Passionate gamer and programmer always looking for new challenges.",
+    bio: "",
     public_repos: 6,
     public_gists: 0,
     followers: 2,
