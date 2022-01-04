@@ -63,6 +63,10 @@ enableRobotsTXT = true
     # Custom JS
     customJS = []
 
+[params.utterances]    
+    repo = "MalwareWerewolf/Davide-Dolce-Hugo-website"
+    label = "web page comment"
+
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
     #siteID = "ABCDE"
