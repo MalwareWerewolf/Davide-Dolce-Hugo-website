@@ -12,7 +12,7 @@ pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 
-disqusShortname = "https-malwarewerewolf-com"
+#disqusShortname = "https-malwarewerewolf-com"
 
 enableRobotsTXT = true
 
