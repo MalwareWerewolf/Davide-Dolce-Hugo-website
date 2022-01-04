@@ -6,8 +6,6 @@ slug = "privacy-policy"
 
 This website doesn’t collect personal information. All texts and images published in this website (where not otherwise specified) are Davide Dolce’s intellectual and industrial propriety.
 
-If you decide to use Disqus to post a comment, you agree to [Disqus' privacy policy](https://help.disqus.com/en/articles/1717103-disqus-privacy-policy).
-
 ## Cookies policy
 
 This website stores technical cookies. These cookies are necessary to provide the requested service. For instance, technical cookies allow you to proceed through different pages of a website with a single login and they remember selections in (order)forms that are filled out on the website.
