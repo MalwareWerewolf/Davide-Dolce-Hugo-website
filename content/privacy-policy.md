@@ -14,4 +14,4 @@ Besides technical cookies, this website stores cookies that are only stored on y
 
 ## Copyright
 
-The contents of this web site are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/deed.en_US).
+The contents of this web site are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
