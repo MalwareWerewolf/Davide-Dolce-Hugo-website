@@ -65,7 +65,7 @@ You can install **Windows 11** and it actually works pretty well, even though yo
 
 1. Download the necessary **UUP Files** from [uupdump](https://uupdump.net)
 2. Follow [this video](https://www.youtube.com/watch?v=-0f--nvPBCA) on Youtube to install Windows 11 on VMWare Fusion
-3. The video doesn't explain how to download the UUP Files with the macOS script, you basically need [Homebrew](https://brew.sh) however there are some issues with a package that you need to install. Follow the these steps which are also listed [here](https://github.com/sidneys/homebrew-homebrew/issues/2) to make it work:
+3. The video doesn't explain how to download the UUP Files with the macOS script, you basically need [Homebrew](https://brew.sh) however there are some issues with a package that you need to install. In the terminal launch these commands which are also listed [here](https://github.com/sidneys/homebrew-homebrew/issues/2) to make it work:
 
 ```sh
 curl -LO https://gist.github.com/minacle/e9dedb8c17025a23a453f8f30eced3da/raw/908b944b3fe2e9f348fbe8b8800daebd87b5966c/openssl@1.0.rb
