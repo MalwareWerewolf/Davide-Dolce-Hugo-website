@@ -39,6 +39,6 @@ Questions ? I have answers, maybe :D
     </div>
   </div>
   <div class="text-center">
-    <p><small>(Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a>)</small></p>
+    <p><small>(Powered by <a rel="nofollow" href="https://un-static.com/">Un-static Forms</a>)</small></p>
   </div>
 </form>
