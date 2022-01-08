@@ -19,7 +19,6 @@ I also like to contribute to the open source by creating new projects on my GitH
 
 Besides contributing to open source and creating other projects, I make some Youtube videos on my channel to share my knowledge with the community.
 
-{{< rawhtml >}}
-  <script src="https://apis.google.com/js/platform.js"></script>
-  <div class="g-ytsubscribe" data-channelid="UChBOmFUlCVeQa0P7mq5eDDQ" data-layout="full" data-count="default"></div>
-{{< /rawhtml >}}
+
+<script src="https://apis.google.com/js/platform.js"></script>
+<div class="g-ytsubscribe" data-channelid="UChBOmFUlCVeQa0P7mq5eDDQ" data-layout="full" data-count="default"></div>

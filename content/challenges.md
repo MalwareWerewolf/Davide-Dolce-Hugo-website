@@ -1,6 +1,6 @@
----
-title: "Challenges"
----
++++
+title = "Challenges"
++++
 
 <img src="/images/challenges.jpeg" alt="Challenges" width="900" height="250">
 

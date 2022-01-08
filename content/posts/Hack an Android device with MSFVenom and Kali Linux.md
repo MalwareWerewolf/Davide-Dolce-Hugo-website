@@ -175,33 +175,7 @@ Download the apk on the phone, you need to make sure that your Kali machine and 
 
 Some commands will not work, but the main purpose of this video is to show how to make this stuff work, you can always change the payload or even make your own payload. Here is a quick demo:
 
-{{< rawhtml >}}
-<style>
-.video-container{
-width: 100%;
-max-width: 800px;
-margin: 0 auto; 
-}
-.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
-</style>
-<div class="video-container">
-  <div class="video-responsive">
-<iframe src="https://player.vimeo.com/video/559419552" width="700" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< vimeo 559419552 >}}
 
 # TLDR
 

@@ -16,6 +16,11 @@ pygmentsCodeFencesGuessSyntax = true
 
 enableRobotsTXT = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
     author = "Davide Dolce"
     siteName = "Malware Werewolf"
