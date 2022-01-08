@@ -3,9 +3,8 @@ date = "2021-01-24"
 title = "Why you should switch to Linux"
 slug = "Why you should switch to Linux"
 tags = []
-categories = []
+categories = ["Linux"]
 series = []
-authors = ["Davide Dolce"]
 +++
 
 !["Ubuntu groovy"](/images/posts/why-you-should-switch-to-linux/Ubuntu-Groovy-Desktop.png)

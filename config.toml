@@ -93,10 +93,10 @@ enableRobotsTXT = true
     #token = "token"
 
 [taxonomies]
-#   category = "categories"
-#   series = "series"
-#   tag = "tags"
-#   author = "authors"
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
 
 [[params.social]]
     name = "Github"

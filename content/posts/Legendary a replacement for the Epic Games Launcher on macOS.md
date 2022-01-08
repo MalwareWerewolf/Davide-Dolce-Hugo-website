@@ -3,9 +3,8 @@ date = "2021-12-24"
 title = "Legendary, a replacement for the Epic Games Launcher on macOS"
 slug = "Legendary, a replacement for the Epic Games Launcher on macOS"
 tags = []
-categories = []
+categories = ["Apple M1"]
 series = []
-authors = ["Davide Dolce"]
 +++
 
 This is going to be a pretty straight forward overview of Legendary. Unlike the Epic Games launcher, Legendary is a command line application and with it you can install games, synch saves, play multiplayer and many other features. If you want to know more you can check the repo on [Github](https://github.com/derrod/legendary).

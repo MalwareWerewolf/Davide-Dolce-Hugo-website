@@ -3,9 +3,8 @@ date = "2021-12-22"
 title = "Wineskin Server, a free alternative to Crossover on M1"
 slug = "Wineskin Server, a free alternative to Crossover on M1"
 tags = []
-categories = []
+categories = ["Apple M1"]
 series = []
-authors = ["Davide Dolce"]
 +++
 
 I read many articles online but many of them (most if not all) only mention the same tools to play Windows games on an Apple M1, e.g.:

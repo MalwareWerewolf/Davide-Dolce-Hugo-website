@@ -2,6 +2,7 @@
 date = "2021-11-14"
 title = "The downsides of Salesforce Marketing Cloud"
 slug = "The downsides of Salesforce Marketing Cloud"
+categories = ["Reviews"]
 +++
 
 So this is going to be some kind of review of the platform on a developer side prospective. I will not talk about administration, SSO and other stuff more related on the configuration of the platform.

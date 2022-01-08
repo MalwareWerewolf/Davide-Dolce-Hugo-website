@@ -3,9 +3,8 @@ date = "2021-04-10"
 title = "Gimme The Steam App Id By Name a tool made with .NET Framework"
 slug = "Gimme The SteamApp Id By Name a tool made with .NET Framework"
 tags = []
-categories = []
+categories = ["C#"]
 series = []
-authors = ["Davide Dolce"]
 +++
 
 !["UI Overview"](/images/posts/gimme-the-steam-app-id-by-name/UI-Overview.png)

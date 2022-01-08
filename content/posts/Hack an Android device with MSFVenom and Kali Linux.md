@@ -3,9 +3,8 @@ date = "2021-06-03"
 title = "Hack an Android device with MSFvenom and Kali Linux"
 slug = "Hack an Android device with MSFvenom and Kali Linux"
 tags = []
-categories = []
+categories = ["Ethical Hacking"]
 series = []
-authors = ["Davide Dolce"]
 +++
 
 There are different ways and tools to hack an Android device, in this post, I will focus on **MSFvenom** to generate an APK which will be installed on the target device and the **Metasploit console** to set up a listener which will be used to interact with the device through the APK installed. Keep in mind that the payload used is not going to work with every Android version, mostly with the recent ones. The main purpose is to show how create a payload and setup a listener, after that we just need to create a server where the victim will download the virus. I found many other tutorials on Google about this topic but they are extremely old and they don't even tell you the Kali version used. You might think that is not important, but when I was looking to learn how to use MSFvenom, many parameters used were not working. Here is a simple example:

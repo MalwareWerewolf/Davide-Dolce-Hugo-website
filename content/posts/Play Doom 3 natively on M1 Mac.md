@@ -3,9 +3,9 @@ date = "2021-12-24"
 title = "Play DOOM 3 natively on Apple M1"
 slug = "Play DOOM 3 natively on Apple M1"
 tags = []
-categories = []
+categories = ["Apple M1"]
 series = []
-authors = ["Davide Dolce"]
+
 +++
 
 I saw a few resources on Google where you can play DOOM 3 or other old games using some tweaks to play them, however there are better solutions to get these games to work. In the DOOM 3 case, a mod called [dhewm3](https://dhewm3.org) has been created to bring DOOM 3 with the help of SDL to all suitable platforms. But for some reason, there isn't an official release for macOS on the Github page. Nonetheless a user made a build for macOS to play this mod, you can find more info about this topic [here](https://forums.macrumors.com/threads/DOOM-3-for-catalina.2227497/?post=28451177#post-28451177). It's not a big deal to get DOOM 3 working with this mod, you just need to copy the **base** folder from the DOOM 3 installation of Steam and paste this folder into the dhewm3 directory. 
