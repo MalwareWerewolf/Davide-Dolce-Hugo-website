@@ -81,28 +81,22 @@ If you get an error and you have to fix it, forget about Internet and Google bec
 Finding a new job as a Salesforce Marketing Cloud Developer is a challenge, these are the numbers of available jobs on Linkedin worldwide:
 
 !["You will struggle to get a new job"](/images/posts/the-downsides-of-salesforce-marketing-cloud/linkedin-job-search-worldwide.png)
-{{< rawhtml >}}
 <br>
-<i>Image from Linkedin</i>
-{{< /rawhtml >}}
+_Image from Linkedin_
 
 Almost 4k jobs, not bad you might think, let's search in the European Union:
 
 !["You will struggle to get a new job European Union"](/images/posts/the-downsides-of-salesforce-marketing-cloud/linkedin-job-search-european-union.png)
-{{< rawhtml >}}
 <br>
-<i>Image from Linkedin</i>
-{{< /rawhtml >}}
+_Image from Linkedin_
 
 Only 544 results and most of these jobs aren't even related to Marketing Cloud. Now compare these results, to a .NET Developer role:
 
 !["Dotnet Developer European Union"](/images/posts/the-downsides-of-salesforce-marketing-cloud/dotnet-developer-european-union.png)
 
 !["Dotnet Developer Worldwide"](/images/posts/the-downsides-of-salesforce-marketing-cloud/dotnet-developer-worldwide.png)
-{{< rawhtml >}}
 <br>
-<i>Image from Linkedin</i>
-{{< /rawhtml >}}
+_Image from Linkedin_
 
 It doesn't have to be a problem, but I think that if you need to change job and you are good at coding, you can find a job wherever you want with a good portfolio. So the fact that there is more competition in a .NET Developer role is a challenge to show that you can distinguish from the big crowd.
 
