@@ -63,7 +63,7 @@ enableRobotsTXT = true
     customCSS = ["/css/custom.css"]
 
     # Custom SCSS
-    customSCSS = []
+    customSCSS = ["scss/main.scss"]
 
     # Custom JS
     customJS = ["/javascript/werewolf-center-images.js", "/javascript/werewolf-center-headings.js"]
