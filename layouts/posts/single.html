@@ -1,0 +1,122 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="{{ .Permalink | safeURL }}">
+              {{ .Title }}
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
+                {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              {{ i18n "reading_time" .ReadingTime }}
+            </span>
+          </div>
+          {{ with .Page.Params.Authors }}{{ partial "taxonomy/authors.html" . }}{{ end }}
+          {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
+          {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
+        </div>
+      </header>
+
+      <div>
+        {{ if .Params.featuredImage }}
+          <img src='{{ .Params.featuredImage }}' alt="Featured image"/>
+        {{ end }}
+        {{ .Content }}
+      </div>
+
+
+      <footer>
+        {{ partial "posts/series.html" . }}
+        {{ partial "posts/commento.html" . }}
+
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'Disqus')" id="defaultOpen">Disqus</button>
+          <button class="tablinks" onclick="openTab(event, 'Utterances')">Utterances</button>
+        </div>
+
+        <div id="Disqus" class="tabcontent">
+          {{ partial "posts/disqus.html" . }}
+        </div>
+        
+        <div id="Utterances" class="tabcontent">
+          {{ partial "posts/utterances.html" . }}
+        </div>
+      </footer>
+    </article>
+
+    {{ partial "posts/math.html" . }}
+  </section>
+
+  <style>  
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+    
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      color: #212121;
+      font-weight: bold;
+    }
+    
+    .tab button:hover {
+      background-color: #ddd;
+    }
+    
+    .tab button.active {
+      background-color: #ffff;
+    }
+
+    .tab button.disable {
+      color: #7f7f7f;
+    }
+    
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border-top: none;
+      border: 1px solid #ccc;
+    }
+  </style>
+  
+  <script>
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    document.getElementById("defaultOpen").click();
+  </script>  
+{{ end }}
+
