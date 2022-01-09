@@ -8,7 +8,7 @@
     {{ with .Site.Params.gravatar }}
       <div class="avatar"><img src="https://www.gravatar.com/avatar/{{md5 .}}?s=240&d=mp" alt="gravatar"></div>
     {{ end }}
-    <h1>{{ .Site.Params.author }}</h1>
+    <h1 class="author-title">{{ .Site.Params.author }}</h1>
     <h2>{{ .Site.Params.info }}</h2>
   </div>
   <div>
