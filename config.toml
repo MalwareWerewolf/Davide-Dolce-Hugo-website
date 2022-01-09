@@ -69,7 +69,7 @@ enableRobotsTXT = true
     customJS = ["/javascript/werewolf-center-images.js", "/javascript/werewolf-center-headings.js"]
 
 [params.utterances]    
-    repo = "MalwareWerewolf/Davide-Dolce-Hugo-website"
+    repo = "MalwareWerewolf/malwarewerewolf.com"
     label = "web page comment"
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
