@@ -9,5 +9,5 @@ window.addEventListener("load", function () {
                 element.style = "display: none";
             }
         })
-    }, 2000);
+    }, 2500);
 });
