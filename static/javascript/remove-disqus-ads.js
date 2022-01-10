@@ -1,7 +1,7 @@
 let foundDsq = false;
 
 window.addEventListener("load", function () {
-    setInterval(function () {
+    setTimeout(function () {
         let elements = document.querySelectorAll('[id^="dsq-"]');
         elements.forEach(element => {
             if (elements.length > 1 && !foundDsq) {
@@ -10,5 +10,5 @@ window.addEventListener("load", function () {
                 console.log("entered");
             }
         })
-    }, 300);
+    }, 2000);
 });
