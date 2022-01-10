@@ -2,7 +2,7 @@
 title = "Contact me"
 +++
 
-Questions ? I have answers, maybe :D
+Questions ? I have answers, maybe :laughing:
 
 <form method="post" action="https://forms.un-static.com/forms/d8a02af344d1f3b59793e4527cebe341c2991886">
   <div class="form-group row">
