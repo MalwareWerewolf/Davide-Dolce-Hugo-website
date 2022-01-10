@@ -1,8 +1,9 @@
 let foundDsq = false;
 
 window.addEventListener("load", function() {
-  document.querySelectorAll("iframe").forEach(element => {
-    if(element.id.includes("dsq") && !foundDsq){
+  let elements = document.querySelectorAll('[id^="dsq-"]');
+  elements.forEach(element => {
+    if(element > 1 && !foundDsq){
         foundDsq = true;
         element.style = "display: none";
     }
