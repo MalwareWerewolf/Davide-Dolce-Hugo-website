@@ -69,7 +69,7 @@ enableRobotsTXT = true
     customSCSS = ["scss/main.scss"]
 
     # Custom JS
-    customJS = ["/javascript/werewolf-center-images.js", "/javascript/werewolf-center-headings.js", "/javascript/remove-disqus-ads.js", "/javascript/open-a-new-tab.js", "/javascript/remove-highlight.js"]
+    customJS = ["/javascript/werewolf-center-images.js", "/javascript/werewolf-center-headings.js", "/javascript/open-a-new-tab.js", "/javascript/remove-highlight.js"]
 
 [params.utterances]    
     repo = "MalwareWerewolf/malwarewerewolf.com"
