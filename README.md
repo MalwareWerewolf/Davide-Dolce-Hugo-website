@@ -3,7 +3,7 @@ This is a repo to host the (Markdown) source files of my personal website, inclu
 To build the website locally, you must clone this repo with its submodule (use the `--recursive` argument), e.g.,
 
 ```bash
-git clone --recursive git@github.com:MalwareWerewolf/Davide-Dolce-Hugo-website.git
+git clone --recursive git@github.com:MalwareWerewolf/malwarewerewolf.com.git
 ```
 
 The website is built via the Go framework [**Hugo**](https://github.com/gohugoio/hugo). Please read its documentation for how to use it.
